@@ -25,7 +25,10 @@ vb = Gtk::VBox.new(true, 6)
         s_int = interior.text.to_f
         s_all += (s_int * 5)
     }
+    b = Gtk::Button.new(Gtk::Stock::OK)
+    b.signal_connect('clicked') { interior.activate }
     hb.pack_start(interior, true, true)
+    hb.pack_start(b)
     vb.pack_start(hb)
 
     hb = Gtk::HBox.new(false, 6)
@@ -37,7 +40,10 @@ vb = Gtk::VBox.new(true, 6)
         s_ext = exterior.text.to_f
         s_all += (s_ext * 10)
     }
+    b = Gtk::Button.new(Gtk::Stock::OK)
+    b.signal_connect('clicked') { exterior.activate }
     hb.pack_start(exterior, true, true)
+    hb.pack_start(b)
     vb.pack_start(hb)
 
     hb = Gtk::HBox.new(false, 6)
@@ -49,7 +55,10 @@ vb = Gtk::VBox.new(true, 6)
         s_pool = pool.text.to_f
         s_all += (s_pool * 25)
     }
+    b = Gtk::Button.new(Gtk::Stock::OK)
+    b.signal_connect('clicked') { pool.activate }
     hb.pack_start(pool, true, true)
+    hb.pack_start(b)
     vb.pack_start(hb)
 
 # Define price coeficient
