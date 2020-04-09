@@ -5,7 +5,7 @@ Apart from the interior, exterior and pool area, all parameters ajust a coeffici
 This app is developed in Ruby 2.6.3 and use GTK+ 2 as graphic library.
 
 
-# Linux
+# Linux / MacOS
 
 *Install ruby 2.6.x*
 Take a look to the official website : https://www.ruby-lang.org/en/documentation/installation/
