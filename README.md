@@ -1,5 +1,6 @@
 # MC_real_estate_calculator
-A mini-program for a Minecraft role-play server that define the price of a house according to all parameters.
+A mini-program for a Minecraft role-play server that define the price of a house according to every parameters.
+Apart from the interior, exterior and pool area, all parameters ajust a coefficient apply at the final validation.
 
 This app is developed in Ruby 2.6.3 and use GTK+ 2 as graphic library.
 
@@ -30,5 +31,5 @@ Once Rubyinstaller is installed, open PowerShell and type `gem install gtk2` (th
 Now you can launch the program by typing `ruby RealEstateCalc.rb`
 
 
-
+#
 -Made by Halil Bagdadi-
