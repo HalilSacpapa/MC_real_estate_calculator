@@ -28,7 +28,7 @@ Make sure to install all of them by taping 1, 2 and 3 (corresponding to Ruby, Ru
 
 Once Rubyinstaller is installed, open PowerShell and type `gem install gtk2` (this could take a while).
 
-Now you can launch the program by typing `ruby RealEstateCalc.rb`
+Now you can launch the program by double clic on the file (which should be open by Rubyinstaller by default) or by typing `ruby RealEstateCalc.rb` on your terminal.
 
 
 #
